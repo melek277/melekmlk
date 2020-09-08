@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>drop down menu</title>
+    </head>
+    <style>
+    body{
+    background: #dedede;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.dropdwn{
+    margin: 0 auto;
+}
+video{
+    padding: 10px;
+    margin: 20px;
+    float: right;
+}
+nav{
+    height: 60px;
+    background:#10467c;
+    box-shadow: 0 px 15x rgba(0,0,0,0.1);
+}
+.logo{
+    padding: 10px 0 0 40px;
+    margin: auto;
+    width: 50px;
+    height: 50px;
+    top: 20px;
+}
+nav ul{
+    padding: 0;
+    margin: 0;
+    float: right;
+    margin-right: 30px;
+}
+nav ul li{
+    background: #10467c;
+    position: relative;
+    list-style: none;
+    display: inline-block;
+}
+nav ul li a{
+    display: block;
+    padding: 0 15px;
+    color: white;
+    text-decoration: none;
+    line-height: 60px;
+    font-size: 20px;
+}
+nav ul li a:hover{
+    background:#10467c;
+}
+nav ul ul{
+    position: absolute;
+    top: 60px;
+    display: none;
+}
+nav ul li:hover > ul{
+    display: block;
+}
+nav ul ul li{
+    width: 150px;
+    float: none;
+    display: list-item;
+    position: relative;
+}
+nav ul ul ul li{
+    position: relative;
+    top: -60px;
+    left: 150px;
+}
+
+.body img{
+    width: 100%;
+    max-width: 700px;
+    margin: 20px 0;
+}
+.body p{
+    text-align: justify;
+}
+h1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; color: salmon;text-align: left;font-size: 30px;
+}
+</style>
+    <body>
+        <div class="dropdwn">
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li> 
+                    <li><a href="#">Contact</a>
+                    <ul>
+                        <li><a href="https://www.facebook.com/melek.hfaiedh.3/">Fecebook</a></li>
+                        <li><a href="https://www.instagram.com/hfaiedhmelek/">Instagram</a></li>
+                        <li><a href="https://twitter.com/HfaiedhMlk">Twiter</a></li>
+                        <li><a href="#">Phone</a>
+                            <ul>
+                                <li><a href="#">+21622986133 </a>
+                                    </li>
+                                </ul>
+                        </li>
+                        </ul>
+                    <li><a href="#">Tutorials</a>
+                    <ul>
+                        <li><a href="python.html">Python</a></li>
+                        <li><a href="algorithme.html">Algorithme</a></li>
+                        <li><a href="html5&css3.html">Html5&Css3</a></li>
+                        <li><a href="javascript.html">Javascript</a></li>
+                        <li><a href="php.html">PHP</a></li>
+                        </ul>
+                        </li> 
+                        <li><a href="#">FAQ</a></li>
+                        </ul>
+            </nav>
+        </div>
+        <div class="body">
+            <center>
+                <img src="melek.PNG">
+            </center>
+        </div>
+    </body>
+</html>
